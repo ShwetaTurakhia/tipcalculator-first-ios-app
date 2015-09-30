@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface tipcaculatorTests : XCTestCase
+@interface tipcalculatorTests : XCTestCase
 
 @end
 
-@implementation tipcaculatorTests
+@implementation tipcalculatorTests
 
 - (void)setUp
 {
