@@ -46,6 +46,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    NSLog(@"View will appear");
     // Set the default tip percentage from the user settings
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int defaultTipSegmentIndex = [defaults integerForKey:@"default_tip_percent_index"];
@@ -58,6 +59,14 @@
     [self.billTextField becomeFirstResponder];
     
 
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    
+    // Update values since the tip percentage may have changed
+    [self updateValues];
+    
 }
 
 - (void)didReceiveMemoryWarning
