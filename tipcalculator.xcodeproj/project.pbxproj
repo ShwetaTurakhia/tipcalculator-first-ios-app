@@ -24,6 +24,7 @@
 		3D1A71B91BBB6BE60004F432 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A71B81BBB6BE60004F432 /* README.md */; };
 		3D1A71BD1BBB6C9B0004F432 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A71BB1BBB6C9B0004F432 /* SettingsViewController.m */; };
 		3D1A71BE1BBB6C9B0004F432 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A71BC1BBB6C9B0004F432 /* SettingsViewController.xib */; };
+		3DDD0DA51BBCAE4200A9D033 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3DDD0DA41BBCAE4200A9D033 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		3D1A71BA1BBB6C9B0004F432 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		3D1A71BB1BBB6C9B0004F432 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		3D1A71BC1BBB6C9B0004F432 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		3DDD0DA41BBCAE4200A9D033 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		3D1A71751BBB3B560004F432 = {
 			isa = PBXGroup;
 			children = (
+				3DDD0DA41BBCAE4200A9D033 /* .gitignore */,
 				3D1A71B81BBB6BE60004F432 /* README.md */,
 				3D1A71871BBB3B560004F432 /* tipcalculator */,
 				3D1A71A01BBB3B560004F432 /* tipcalculatorTests */,
@@ -244,6 +247,7 @@
 				3D1A718C1BBB3B560004F432 /* InfoPlist.strings in Resources */,
 				3D1A71B91BBB6BE60004F432 /* README.md in Resources */,
 				3D1A71941BBB3B560004F432 /* Images.xcassets in Resources */,
+				3DDD0DA51BBCAE4200A9D033 /* .gitignore in Resources */,
 				3D1A71BE1BBB6C9B0004F432 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
